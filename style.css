@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #030303;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #030303;
+    padding-bottom: 10px;
+    font-weight: 700;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+.Profile {
+    border: 1px solid #0f0f0f;
+    margin-top: 0px;
+    font-style: oblique;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    left: -70px;
+    width: 100%;
+    margin-top: -2px;
+    height: 70%;
+}
+.Goals {
+    
+    text-align: center;
+    font-style: oblique;
+    border: 1px solid black;
+    background-color:lightblue;
+
+    border: bottom radius 10px; ;
+    top: -10px;
+    font-family: system-ui;
+    font-size: 24px;
+}
+.Goals li{
+    border-radius: 20px;
+    background-color: white;
+}
+.Goals li:hover{
+    color: gray;
+}
+
+.links {
+    background-color: white;
+    border: 1px solid #0e0d0d;
+    font-size: medium;
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.links a {
+    display: block;
+    font-style: ;
+    margin: 5px 0;
+    color: rgb(0, 119, 255);
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
